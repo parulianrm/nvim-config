@@ -1,8 +1,27 @@
-tt.*
-.tests
-doc/tags
-debug
-.repro
-foo.*
+# Node / npm
+node_modules/
+package-lock.json
+
+# Log & debug
 *.log
-data
+debug/
+.repro/
+foo.*
+tt.*
+data/
+
+# Tests & docs
+.tests/
+doc/tags
+
+# Temporary / build cache
+*.tmp
+*.swp
+*.swo
+*.bak
+.DS_Store
+
+# Lazy.nvim / plugin managers
+lazy-lock.json
+.mason/
+.cache/
